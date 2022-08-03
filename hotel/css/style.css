@@ -1,0 +1,351 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0px 20px;
+    overflow: auto;
+}
+
+.showcase-container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 100px 20px;
+    text-align: center;
+
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+.navbar {
+
+    background-color: black;
+    overflow: auto;
+    opacity: 0.7;
+
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    float: right;
+
+}
+
+.navbar li {
+
+    float: left;
+
+
+}
+
+.navbar h1 {
+    color: azure;
+    float: left;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.current {
+    background-color: #845131;
+    color: black;
+
+}
+
+.footer {
+
+    background-color: black;
+    overflow: auto;
+    opacity: 0.7;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    
+
+}
+
+#showcase {
+    background-image: url('../img/showcase.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+#showcase p span {
+
+    font-size: 50px;
+
+}
+
+#showcase p {
+    padding: 0 0 20px 0;
+
+
+}
+
+.text-primary {
+    color: #E4B7A0;
+
+
+}
+
+.lead {
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 1.2em;
+
+}
+
+.sub-lead {
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin: 0 0 50px 0;
+
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    background-color: #E4B7A0;
+    color: #FFFFFF;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 15px 15px;
+
+}
+
+.btn-spacing{
+   
+    margin: 30px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #E4B7A0;
+
+}
+
+#info {
+    float: left;
+    width: 50%;
+}
+
+.history {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 400px;
+    padding: 0 0 30px 0;
+
+
+
+}
+
+.history h2 {
+    font-size: 30px;
+    padding: 0 0 30px 0;
+    margin: 80px 0 0 0;
+}
+
+.history p {
+    text-align: center;
+    padding: 0 0 30px 0;
+
+}
+
+#info {
+    height: 400px;
+}
+
+.box {
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.box h3 {
+    padding: 0 40px 30px;
+}
+
+.box i {
+    padding: 20px;
+}
+
+.box p {
+    padding: 20px;
+}
+
+.bg-primary {
+    background-color: #E4B7A0;
+}
+
+
+/* about form */
+
+.about-text{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.about-text p{
+   margin-top: 10px;
+   padding: 20px;
+   text-align: center;
+}
+
+.about-text h2{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .about-text a{
+   margin: auto;
+   padding: 10px;
+   text-align: center;
+ }
+
+.about img{
+    padding: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+  
+
+    
+}
+
+.feedback{
+    background-image: url('../img/test-bg.jpg');
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.feedback h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+.feedback-item{
+background-color: #E4B7A0;
+padding: 10px;
+border-radius: 5px;
+margin: 30px;
+opacity: 0.8;
+}
+
+.feedback-item img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding: 0px;
+    margin: 0 10px;
+}
+
+.feedback-item p{
+    padding: 10px 30px;
+    text-align: justify;
+   
+}
+
+/* contact-form */
+.contact{
+   padding: 30px;
+   max-width: 900px;
+   margin: 10px;
+    
+}
+
+.contact p{
+   
+    margin: 15px 10px;
+     
+ }
+
+.contact h2{
+    font-size: 40px;
+}
+
+.form-item{
+    padding: 10px;
+}
+
+.form-item label{
+display: block;
+padding: 0 0 10px;
+}
+
+.form-item input{
+    
+    height: 40px;
+    width: 1000px;
+    border-radius: 2px;
+    border-width:1px;
+    border-color: #E4B7A0;
+    border-style: solid;
+
+    }
+
+    .form-item textarea{
+    
+        
+        width: 1000px;
+        border-radius: 2px;
+        border-width:1px;
+        border-color: #E4B7A0;
+        border-style: solid;
+    
+        }
+    .contact-form button{
+        display: block;
+       margin: 0px 10px;
+    }
+
+    .box-secondary{
+       
+        background-color: black;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }

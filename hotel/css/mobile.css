@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    float: none;
+    display: block;
+
+}
+
+.navbar li {
+
+    float: none;
+    display: block;
+
+
+}
+
+.navbar h1 {
+    color: azure;
+    padding: 10px;
+    font-weight: bolder;
+    float: none;
+   
+}
+
+#info {
+   display: none;
+   
+}
+
+.history{
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.box{
+    float: none;
+    display: block;
+    width: 100%;
+}
+
+#showcase{
+    height: auto;
+}
+
+.about-text{
+    float: none;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+
+
+.about #info1{
+   padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+  
+  
+
+    
+}
+
+.feedback{
+    background-image: url('../img/test-bg.jpg');
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+

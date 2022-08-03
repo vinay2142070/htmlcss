@@ -1,0 +1,51 @@
+.nav-container i{
+    display: none;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: 1fr;
+   align-items: center ;
+   padding: 1rem;
+   justify-content: center;
+   text-align: center;
+}
+
+#showcase{
+   
+    position: relative;
+    height: 100vh;
+    padding: 2rem;
+    color: white;
+    background-color: #333;
+       
+   
+}
+
+.showcase-container{
+    display: grid;
+    grid-template-columns:1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* home articles */
+
+.article-container,.footer-container{
+   
+    grid-template-columns: 1fr;
+    
+}
+
+#home-articles .article-container > *:first-child,
+#home-articles .article-container > *:last-child {
+ 
+  grid-column: 1;
+  
+}
+
+.footer-container > *:last-child{
+    grid-column: 1;
+   
+}
